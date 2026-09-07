@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord - questions, help, dictionary recommendations
+    url: https://discord.gg/UpmNHxT7PF
+    about: Fastest place to ask if something is not working, or to suggest dictionaries.
+  - name: 🔒 Security issue
+    url: https://github.com/Olexify/Kitsumi/blob/main/SECURITY.md
+    about: Please report security issues privately, not as a public issue.

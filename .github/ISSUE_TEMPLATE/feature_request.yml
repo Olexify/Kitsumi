@@ -1,0 +1,33 @@
+name: 💡 Feature request
+description: Suggest something Kitsumi should do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is annoying right now?
+      description: >
+        Describe the situation you keep running into, not the solution. This
+        is the most useful part of the request.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Kitsumi to do?
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Which language are you studying?
+      description: Some requests only make sense for certain languages.
+      placeholder: "Japanese, Korean, Spanish..."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you work around it today?
+      description: Another extension, a manual step, or nothing at all.

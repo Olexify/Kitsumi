@@ -1,0 +1,93 @@
+name: 🐛 Bug report
+description: Something in Kitsumi is not working
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The fields below are the ones that actually
+        determine whether a bug can be reproduced, so please fill them in.
+
+  - type: input
+    id: version
+    attributes:
+      label: Kitsumi version
+      description: Shown at the bottom of the extension's settings.
+      placeholder: "7.2.7"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox (desktop)
+        - Firefox (Android)
+        - Edge
+        - Other Chromium browser
+    validations:
+      required: true
+
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser version
+      placeholder: "Chrome 141, Firefox 145..."
+    validations:
+      required: true
+
+  - type: input
+    id: site
+    attributes:
+      label: Where did it happen?
+      description: The site, or "local video file". A link to the exact page helps a lot.
+      placeholder: "youtube.com, netflix.com, local .mp4..."
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Study language and dictionary
+      placeholder: "Japanese, JMdict + KANJIDIC"
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Load subtitles by ...
+        3. Hover ...
+        4. Result:
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional but very useful)
+      description: >
+        Press F12, open the Console tab, reproduce the problem, and paste any
+        red error lines here.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am on the latest published version.
+          required: true
+        - label: I checked that an issue for this does not already exist.
+          required: true

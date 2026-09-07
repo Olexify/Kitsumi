@@ -1,0 +1,107 @@
+Kitsumi
+Copyright (c) 2026 Olexify. All rights reserved.
+
+Kitsumi is free to use. It is not open source.
+
+
+1. Kitsumi's own code and assets
+--------------------------------
+
+No permission is granted to copy, modify, merge, publish, distribute,
+sublicense, sell, reverse engineer, or create derivative works from any part of
+Kitsumi, in whole or in part, without prior written permission from the
+copyright holder. This applies to the source code, and equally to the compiled
+extension package distributed through the Chrome Web Store, addons.mozilla.org
+and the Opera add-ons site.
+
+Having access to the source code grants no licence to use, copy, or
+redistribute any part of it. The fact that a browser extension package is
+readable once installed or downloaded does not place its contents in the public
+domain and does not grant any licence to reuse them.
+
+
+2. Third-party components
+-------------------------
+
+The extension package also contains software and data that is not Kitsumi's,
+under open licences that grant you rights this licence cannot take away.
+Section 1 does not apply to those components. Each is governed by its own
+licence, and those licences prevail over anything here.
+
+Every one of them is listed, with its licence and the path to the full licence
+text inside the package, in THIRD-PARTY-NOTICES.txt. The same list is readable
+inside the extension at Settings, About & legal, Third-party licences. In
+summary:
+
+  Tesseract.js; the Tesseract OCR engine compiled to
+  WebAssembly, which links Leptonica, libpng and libtiff;
+  and the Japanese vertical recognition data                Apache License 2.0
+
+  fflate                                                    MIT
+
+  Kanji usage frequency data, by Dmitry Shpika, modified    CC BY 4.0
+
+Dictionaries downloaded through Kitsumi are not part of the package. They are
+fetched from third-party hosts at the user's request, and each keeps whatever
+licence its publisher gave it.
+
+
+3. Documentation
+----------------
+
+Documentation in Kitsumi's repositories, meaning the README and other Markdown
+files, may be quoted for review, commentary and reporting purposes, with
+attribution.
+
+
+4. No warranty
+--------------
+
+Kitsumi is provided "as is" and "as available", without warranty of any kind,
+express or implied, including but not limited to the implied warranties of
+merchantability, fitness for a particular purpose, title, and
+non-infringement. No advice or information obtained through Kitsumi, whether
+spoken or written, creates any warranty not stated here.
+
+Kitsumi displays material that comes from third-party websites, files and
+services outside the copyright holder's control. There is no guarantee that
+any subtitle, dictionary entry, translation, recognised text or generated card
+is accurate, complete or fit for any purpose, nor that any third-party service
+will remain available or keep working as it does today.
+
+
+5. Limitation of liability
+--------------------------
+
+To the maximum extent permitted by applicable law, the copyright holder is not
+liable for any indirect, incidental, special, consequential or exemplary
+damages, nor for any loss of or damage to data, loss of profits, or
+interruption of study or work, arising out of or in connection with Kitsumi or
+its use, whether the claim is founded in contract, tort or otherwise, and even
+if the possibility of such damage was known.
+
+Where liability cannot lawfully be excluded, it is limited to the amount you
+paid for Kitsumi, which is nothing.
+
+Nothing in this licence excludes or limits liability for death or personal
+injury caused by negligence, for fraud or fraudulent misrepresentation, or for
+anything else that applicable law does not allow to be excluded or limited. If
+you are a consumer, this licence does not affect your statutory rights.
+
+
+6. Use of the software
+----------------------
+
+Kitsumi is a tool. It hosts no video, no subtitles and no dictionaries, and it
+supplies no copyrighted content of its own. What it shows you comes from the
+page you are on, from files you provide, or from third-party services you
+choose to enable.
+
+You are responsible for having the right to access that material, and for
+complying with the terms of the sites and services you use Kitsumi with.
+
+
+7. Contact
+----------
+
+Licensing enquiries: olexifyyy@gmail.com
