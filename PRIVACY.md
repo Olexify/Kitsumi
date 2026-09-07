@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 7 September 2026
+Last updated: 8 September 2026
 
 ## Summary
 
@@ -12,6 +12,36 @@ feature that needs one, and every one of those is listed below.
 On a fresh install, nothing you type, hover, watch or listen to is sent
 anywhere. The features that would send something are off until you turn them
 on.
+
+## What the store listings declare, and what that means
+
+The Chrome Web Store asks every developer to tick which categories of user data
+their extension **handles**. Google defines handling as "collecting,
+transmitting, using, or sharing", and requires the declaration "even when data
+is processed or stored locally on a user's device and is not transmitted to
+external servers or third parties".
+
+That is a much wider word than most people read into it. Reading the subtitle
+line on your screen in order to draw it back with a dictionary attached is
+handling, even though the line never goes anywhere. Kitsumi ticks the
+categories honestly rather than picking the flattering reading, so here is what
+each one actually is:
+
+- **Website content.** The subtitle text on the page, read so the overlay can
+  be drawn and so you can hover a word. That happens on your device. It is also
+  what is sent, and only the part you asked about, if you switch on an AI
+  feature with your own key.
+- **Authentication information.** The API keys you choose to type in, for
+  Jimaku, OpenSubtitles, SubDL, Groq or WaveSpeed. They sit in your browser and
+  go only to the service that issued them.
+- **Web browsing activity.** The title of the tab you are watching, used to
+  work out which show it is, and remembered per show so the next episode finds
+  its subtitles.
+
+**None of it reaches the developer, because there is nowhere for it to go.**
+Kitsumi has no server, no account, no analytics and no telemetry. Those
+categories describe what the software touches on your machine, not what anybody
+collects about you. Everything below sets out exactly where each thing goes.
 
 ## What Kitsumi stores, and where
 
@@ -84,12 +114,17 @@ embedded frames. It reads the page only to find the video player, its subtitle
 track, and any image you point the OCR at, and only on pages where you use it
 or that you have allowlisted.
 
-Kitsumi does not collect page content and does not transmit it, with one
-exception that is entirely in your hands: if you switch on an AI feature with
-your own API key, the subtitle line, or the audio of the video you asked it to
-transcribe, is sent to that provider so it can do the thing you asked for.
-Nothing else from the page is ever transmitted, and none of it is ever stored
-outside your browser.
+Reading the page is how the overlay gets drawn, and it is why the store
+listing declares website content. What Kitsumi does not do is keep any of it or
+send it away. Page content is read, used to render the thing you are looking
+at, and discarded; nothing about the pages you visit is stored beyond the show
+title Kitsumi remembers so the next episode finds its subtitles.
+
+There is one exception, entirely in your hands: if you switch on an AI feature
+with your own API key, the subtitle line, or the audio of the video you asked
+it to transcribe, is sent to that provider so it can do the thing you asked
+for. Nothing else from the page is ever transmitted, and none of it is ever
+stored outside your browser.
 
 If you would rather narrow this, both browsers let you restrict an extension
 to specific sites:
