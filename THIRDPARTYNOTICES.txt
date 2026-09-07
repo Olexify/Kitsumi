@@ -1,0 +1,182 @@
+Kitsumi - third-party notices
+=============================
+
+Kitsumi itself is proprietary; see LICENSE in the project repository at
+https://github.com/Olexify/Kitsumi. This file covers the parts of this package
+that are NOT Kitsumi's, and it exists because their licences require their
+notices to travel with the code. Those components keep their own licences: the
+terms below govern them, not Kitsumi's terms.
+
+Every full licence text named here ships inside this package at the path given.
+
+
+1. Tesseract.js
+---------------
+Files:    lib/tesseract/tesseract.min.js
+          lib/tesseract/worker.min.js
+Licence:  Apache License 2.0
+Text:     lib/tesseract/LICENSE-tesseract.txt
+Upstream: https://github.com/naptha/tesseract.js
+
+Both bundles embed third-party code of their own, and the notices for it are
+kept beside them exactly as the upstream build emits them:
+
+  lib/tesseract/tesseract.min.js.LICENSE.txt
+      regenerator-runtime - Copyright (c) 2014-present, Facebook, Inc. - MIT
+
+  lib/tesseract/worker.min.js.LICENSE.txt
+      buffer          - Feross Aboukhadijeh - MIT
+      ieee754         - Feross Aboukhadijeh - BSD-3-Clause
+      regenerator-runtime - Copyright (c) 2014-present, Facebook, Inc. - MIT
+      zlib.js         - 2012 imaya - MIT
+
+
+2. Tesseract OCR engine, compiled to WebAssembly
+------------------------------------------------
+Files:    lib/tesseract/tesseract-core-simd-lstm.js
+          lib/tesseract/tesseract-core-simd-lstm.wasm
+Licence:  Apache License 2.0
+Text:     lib/tesseract/LICENSE-tesseract.txt
+Upstream: https://github.com/naptha/tesseract.js-core
+          https://github.com/tesseract-ocr/tesseract
+
+This is a build of the Tesseract OCR engine. It links Leptonica, libpng and
+libtiff, each under its own permissive licence, and their full texts live with
+those projects:
+
+  Leptonica  https://github.com/DanBloomberg/leptonica
+  libpng     https://github.com/pnggroup/libpng
+  libtiff    https://gitlab.com/libtiff/libtiff
+
+
+3. Japanese vertical recognition data
+-------------------------------------
+File:     lib/tesseract/jpn_vert.traineddata
+          (Chrome and Firefox packages only - the Opera store accepts no
+          .traineddata file, so the Opera package leaves it out)
+Licence:  Apache License 2.0
+Text:     lib/tesseract/LICENSE-tesseract.txt
+Upstream: https://github.com/tesseract-ocr/tessdata
+
+Recognition data for any other language is never bundled, and in the Opera
+package that includes Japanese. When one is needed it loads from
+https://tessdata.projectnaptha.com and is cached on the device, under the same
+licence.
+
+
+4. fflate
+---------
+File:     lib/fflate.min.js
+Licence:  MIT - Copyright (c) 2023 Arjun Barrett
+Text:     lib/LICENSE-fflate.txt
+Upstream: https://github.com/101arrowz/fflate
+
+Used to read the .zip files of dictionaries and subtitles that the user
+imports or downloads.
+
+
+5. Kanji usage frequency data
+-----------------------------
+Where:    the KANJI_FREQ table inside lib/ocr-engine.js
+Licence:  Creative Commons Attribution 4.0 International
+Text:     lib/tesseract/LICENSE-kanji-frequency.txt
+Upstream: https://github.com/scriptin/kanji-frequency
+
+Derived, with changes, from Dmitry Shpika's datasets. The changes are
+described in the licence file named above.
+
+
+6. Brand marks
+--------------
+Files:    icons/youtube.png, icons/twitch.png, icons/instagram.png,
+          icons/discord.png, icons/patreon.png, icons/kofi.png,
+          icons/github.png
+
+These are the trade marks of their respective owners. They are shipped
+unmodified and used for one purpose: as the icons of the links that open
+Kitsumi's own pages on those services. No affiliation with, sponsorship by, or
+endorsement from any of them is claimed or implied.
+
+Note that this is about trade marks, not about who drew the file. These icons
+depict other companies' marks whoever made the image, which is why they are
+listed here.
+
+Everything else in icons/ - the app icons, the fox artwork, the settings icon
+and the opening video - is the author's own work and is covered by section 1
+of LICENSE, not by anything here. If you believe a file in this package is
+yours, write to the address in LICENSE and it will be credited or removed.
+
+
+7. Sounds
+---------
+sounds/AppLaunch.mp3 is the author's own work and is covered by section 1 of
+LICENSE, not by anything here.
+
+The other five clips came from Freesound (https://freesound.org/) and Pixabay
+(https://pixabay.com/). All were converted from WAV to MP3 for this package.
+
+Pixabay content is covered by the Pixabay Content License
+(https://pixabay.com/service/license-summary/), which permits use in a
+commercial product and asks for no attribution.
+
+Freesound has no single licence: each upload carries the one its author chose.
+Nothing here is under a NonCommercial licence. The clips used are:
+
+  REQUIRES ATTRIBUTION
+  "Peanut drop 9.wav" by DarkOrochi
+    https://freesound.org/people/DarkOrochi/sounds/322246/
+    Creative Commons Attribution 4.0
+    https://creativecommons.org/licenses/by/4.0/
+    Changes made: converted to MP3.
+
+  Public domain, Creative Commons 0 - no attribution required, listed for
+  the record:
+  "anime cat girl.wav" by KurireeVA
+    https://freesound.org/people/KurireeVA/sounds/476588/
+  "effect_notify.wav" by ricemaster
+    https://freesound.org/people/ricemaster/sounds/278142/
+  "Success notification" by _lucy
+    https://freesound.org/people/_lucy/sounds/780010/
+  "Pop 4" by quatricise
+    https://freesound.org/people/quatricise/sounds/789793/
+
+
+8. Dictionaries offered in the catalog
+--------------------------------------
+These are NOT part of this package. Kitsumi hosts none of them and ships none
+of them. The catalog is a list of links; a file is fetched from a third-party
+host only when the user asks for it, and it then lives in that user's own
+browser. Each keeps whatever licence its publisher gave it, and the obligation
+to honour that licence is the publisher's and the user's, not Kitsumi's.
+
+They are listed here because a person deciding whether to install one should
+be able to see the terms, and because Kitsumi states the same licence on the
+row itself, in the catalog, before the download button.
+
+  JMdict, JMnedict, KANJIDIC          CC BY-SA 4.0
+    Electronic Dictionary Research and Development Group
+    https://www.edrdg.org/          build: yomidevs/jmdict-yomitan
+
+  Jitendex                            CC BY-SA 4.0
+    https://jitendex.org/
+
+  Wiktionary builds ("wty")           CC BY-SA 4.0
+    huggingface.co/datasets/daxida/wty-release
+
+  Wikipedia builds                    CC BY-SA
+    github.com/MarvNC/wikipedia-yomitan
+
+  CC-CEDICT                           CC BY-SA 3.0
+    https://cc-cedict.org/
+
+  KRDICT, the Korean Learners'        CC BY-SA 2.0 KR
+  Dictionary of the National
+  Institute of Korean Language
+    build: github.com/Lyroxide/yomitan-ko-dic
+
+Two rows in that same Korean build, the STDICT monolingual dictionary and the
+CC100 frequency list, state no licence at their source. Kitsumi says so on the
+row rather than implying terms nobody has stated.
+
+Anything a user imports from their own files is entirely their own business
+and never appears here.
