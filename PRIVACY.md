@@ -28,9 +28,13 @@ categories honestly rather than picking the flattering reading, so here is what
 each one actually is:
 
 - **Website content.** The subtitle text on the page, read so the overlay can
-  be drawn and so you can hover a word. That happens on your device. It is also
-  what is sent, and only the part you asked about, if you switch on an AI
-  feature with your own key.
+  be drawn and so you can hover a word. That reading happens on your device.
+  Two optional features then send a piece of it onward, and only the piece you
+  asked about: **online dictionary lookups** send the single word you hovered
+  to the dictionary service, and the **AI features** send the subtitle line, or
+  the audio of the video, to the provider whose key you entered. Both are off
+  until you switch them on, and both go to those services rather than to
+  anything of Kitsumi's.
 - **Authentication information.** The API keys you choose to type in, for
   Jimaku, OpenSubtitles, SubDL, Groq or WaveSpeed. They sit in your browser and
   go only to the service that issued them.
@@ -120,11 +124,17 @@ send it away. Page content is read, used to render the thing you are looking
 at, and discarded; nothing about the pages you visit is stored beyond the show
 title Kitsumi remembers so the next episode finds its subtitles.
 
-There is one exception, entirely in your hands: if you switch on an AI feature
-with your own API key, the subtitle line, or the audio of the video you asked
-it to transcribe, is sent to that provider so it can do the thing you asked
-for. Nothing else from the page is ever transmitted, and none of it is ever
-stored outside your browser.
+There are two exceptions, both entirely in your hands and both off until you
+switch them on:
+
+- **Online dictionary lookups** send the single word you hovered to the
+  dictionary service you picked, because that is the only way it can look the
+  word up.
+- **The AI features** send the subtitle line, or the audio of the video you
+  asked to transcribe, to the provider whose API key you entered.
+
+Nothing else from the page is ever transmitted, and none of it is ever stored
+outside your browser.
 
 If you would rather narrow this, both browsers let you restrict an extension
 to specific sites:
