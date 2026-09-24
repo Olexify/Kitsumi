@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 8 September 2026
+Last updated: 23 September 2026
 
 ## Summary
 
@@ -38,9 +38,11 @@ each one actually is:
 - **Authentication information.** The API keys you choose to type in, for
   Jimaku, OpenSubtitles, SubDL, Groq or WaveSpeed. They sit in your browser and
   go only to the service that issued them.
-- **Web browsing activity.** The title of the tab you are watching, used to
-  work out which show it is, and remembered per show so the next episode finds
-  its subtitles.
+- **Web browsing activity.** The title and address of the tab you are
+  watching, used to work out which show it is, and remembered per show so the
+  next episode finds its subtitles. It is sent to a subtitle provider only on
+  the sites you have put on your list, and only after you have accepted the
+  providers notice inside the extension (see below).
 
 **None of it reaches the developer, because there is nowhere for it to go.**
 Kitsumi has no server, no account, no analytics and no telemetry. Those
@@ -73,10 +75,9 @@ take:
 
 | You do this | Kitsumi contacts | What is sent |
 | :--- | :--- | :--- |
-| Search for subtitles | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title taken from the page, or the terms you typed |
-| Search for subtitles | Kitsunekko | Nothing. Kitsumi fetches its public directory index and matches your show against it on your device |
+| Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
-| Look up a word online, off until you turn it on | The dictionary service you selected | The word you looked up |
+| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
@@ -87,12 +88,25 @@ take:
 **Online dictionary lookups are off on a fresh install.** Until you switch them
 on, every lookup is answered from the dictionaries stored on your device, with
 no network request at all. You can turn them on from the welcome page or in
-the Dict tab, and turning every source off again switches them back off.
+the Dict tab; the first time, Kitsumi shows a short notice saying exactly what
+is sent and to whom, and nothing is sent before you accept it. Turning every
+source off again switches them back off.
 
 **Subtitle providers need a key of your own.** Kitsumi ships no shared key.
 Jimaku, OpenSubtitles and SubDL each stay dormant until you enter one, so none
-of them is contacted until you decide to set it up. Kitsunekko needs no key,
-and it receives no search terms.
+of them is contacted until you decide to set it up.
+
+**Subtitle providers are asked only on sites you list.** The automatic search
+(in the background, and the one that runs when you open Kitsumi) is built from
+the page's title and address, so it runs only on the sites you have added to
+your list in the extension. On every other site nothing is sent to any
+provider. The first time you enable a provider, turn on the background search,
+or search by hand, Kitsumi shows a short notice saying exactly this and asks
+you to accept it; nothing is sent to a provider before you do. Declining
+switches the providers off again. Your list stays empty until you accept the
+notice, and YouTube is never on it: there Kitsumi uses YouTube's own subtitle
+tracks and asks no provider. Kitsumi never reads anything you type into a
+page - no passwords, no forms, no messages - on any site, listed or not.
 
 **The AI features are off by default** and stay dormant until you enter your
 own API key. With no key present, no request is made to Groq or WaveSpeed at
@@ -114,9 +128,10 @@ content to that provider, under your own account where a key is involved.
 
 Kitsumi requests access to all sites because subtitles have to be rendered
 over video players it cannot know about in advance, including players inside
-embedded frames. It reads the page only to find the video player, its subtitle
-track, and any image you point the OCR at, and only on pages where you use it
-or that you have allowlisted.
+embedded frames. It reads the page only to find the video player and its
+subtitle track, the word under your cursor on a site where you turned the
+article reader on (it runs only on sites you add yourself), and any image you
+point the OCR at.
 
 Reading the page is how the overlay gets drawn, and it is why the store
 listing declares website content. What Kitsumi does not do is keep any of it or
@@ -154,6 +169,8 @@ All features continue to work on the sites you allow.
 - No selling or sharing of data.
 - No transmission of your study history, vocabulary, or statistics anywhere.
 - No sending of your API keys to anyone but the service that issued them.
+- No reading of what you type into pages: passwords, forms and messages are never read, on any site.
+- No contacting a subtitle provider on a site you have not listed, or before you have accepted the providers notice.
 
 ## Children
 
@@ -162,9 +179,9 @@ from anyone, including children.
 
 ## Changes
 
-Material changes to this policy will be published in this file, and its
-"last updated" date will change. The version history is public in this
-repository.
+Material changes to this policy will be published at kitsumi.org/privacy and
+in the project's repository, and its "last updated" date will change. The
+version history is public in the repository.
 
 ## Contact
 
