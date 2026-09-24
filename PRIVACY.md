@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 23 September 2026
+Last updated: 24 September 2026
 
 ## Summary
 
@@ -87,8 +87,8 @@ take:
 
 **Online dictionary lookups are off on a fresh install.** Until you switch them
 on, every lookup is answered from the dictionaries stored on your device, with
-no network request at all. You can turn them on from the welcome page or in
-the Dict tab; the first time, Kitsumi shows a short notice saying exactly what
+no network request at all. You can turn them on in the popup, from the Dict
+tab or the switch on its main screen; the first time, Kitsumi shows a short notice saying exactly what
 is sent and to whom, and nothing is sent before you accept it. Turning every
 source off again switches them back off.
 
