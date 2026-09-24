@@ -226,3 +226,4 @@ them. The data behind them, where the service states it:
 
   MyMemory                            mymemory.translated.net (Translated srl)
     Translation memory and machine translation, free anonymous tier.
+
