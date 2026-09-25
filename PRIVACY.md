@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 24 September 2026
+Last updated: 25 September 2026
 
 ## Summary
 
@@ -77,6 +77,7 @@ take:
 | :--- | :--- | :--- |
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
+| Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
@@ -165,7 +166,9 @@ All features continue to work on the sites you allow.
 - No user accounts, sign-in, or registration.
 - No analytics, telemetry, crash reporting, or usage tracking.
 - No advertising and no advertising identifiers.
-- No cookies. Kitsumi neither sets nor reads any.
+- No cookies. Kitsumi neither sets nor reads any. When it loads a caption file or
+  an image from the site you are on, your browser sends that site's own cookies
+  with the request, as it does for the page itself.
 - No selling or sharing of data.
 - No transmission of your study history, vocabulary, or statistics anywhere.
 - No sending of your API keys to anyone but the service that issued them.

@@ -227,3 +227,58 @@ them. The data behind them, where the service states it:
   MyMemory                            mymemory.translated.net (Translated srl)
     Translation memory and machine translation, free anonymous tier.
 
+10. Fonts offered for download
+------------------------------
+These are NOT part of this package. In the Subs tab the user can download one
+of the free fonts below; the file and its licence text are fetched only then,
+straight from the official Google Fonts repository
+(https://github.com/google/fonts), and kept together in that user's browser.
+Kitsumi does not modify, rename or subset them. Fonts under the SIL Open Font
+License 1.1 may be used, copied and redistributed freely, including in
+software; Kosugi Maru is under the Apache License 2.0.
+
+  Klee One                   OFL 1.1     Copyright 2020 The Klee Project Authors
+    github.com/google/fonts/tree/main/ofl/kleeone
+  Zen Maru Gothic            OFL 1.1     Copyright 2021 The Zen Maru Gothic Authors
+    github.com/google/fonts/tree/main/ofl/zenmarugothic
+  Hachi Maru Pop             OFL 1.1     Copyright 2020 The Hachi Maru Pop Project Authors
+    github.com/google/fonts/tree/main/ofl/hachimarupop
+  Dela Gothic One            OFL 1.1     Copyright 2020 The Dela Gothic Project Authors
+    github.com/google/fonts/tree/main/ofl/delagothicone
+  Yusei Magic                OFL 1.1     Copyright 2020 The Yusei Magic Project Authors
+    github.com/google/fonts/tree/main/ofl/yuseimagic
+  Zen Kurenaido              OFL 1.1     Copyright 2021 The Zen Kurenaido Project Authors
+    github.com/google/fonts/tree/main/ofl/zenkurenaido
+  Yomogi                     OFL 1.1     Copyright 2020 The Yomogi Project Authors
+    github.com/google/fonts/tree/main/ofl/yomogi
+  Kosugi Maru                Apache 2.0  Copyright 2010 The Kosugi Maru Project Authors
+    github.com/google/fonts/tree/main/apache/kosugimaru
+  Atkinson Hyperlegible      OFL 1.1     Copyright 2020 Braille Institute of America, Inc.
+    github.com/google/fonts/tree/main/ofl/atkinsonhyperlegible
+  Lexend                     OFL 1.1     Copyright 2019 The Lexend Project Authors
+    github.com/google/fonts/tree/main/ofl/lexend
+  Vazirmatn                  OFL 1.1     Copyright 2015 The Vazirmatn Project Authors
+    github.com/google/fonts/tree/main/ofl/vazirmatn
+  Noto Sans Arabic           OFL 1.1     Copyright 2022 The Noto Project Authors
+    github.com/google/fonts/tree/main/ofl/notosansarabic
+  Noto Naskh Arabic          OFL 1.1     Copyright 2022 The Noto Project Authors
+    github.com/google/fonts/tree/main/ofl/notonaskharabic
+  Noto Sans Hebrew           OFL 1.1     Copyright 2024 The Noto Project Authors
+    github.com/google/fonts/tree/main/ofl/notosanshebrew
+  Rubik                      OFL 1.1     Copyright 2015 The Rubik Project Authors
+    github.com/google/fonts/tree/main/ofl/rubik
+  Nanum Pen Script           OFL 1.1     Copyright 2010 NHN Corporation
+    github.com/google/fonts/tree/main/ofl/nanumpenscript
+  Gowun Dodum                OFL 1.1     Copyright 2021 The Gowun Dodum Project Authors
+    github.com/google/fonts/tree/main/ofl/gowundodum
+  ZCOOL KuaiLe               OFL 1.1     Copyright 2018 The ZCOOL KuaiLe Project Authors
+    github.com/google/fonts/tree/main/ofl/zcoolkuaile
+  Sarabun                    OFL 1.1     Copyright 2018 The Sarabun Project Authors
+    github.com/google/fonts/tree/main/ofl/sarabun
+  Mali                       OFL 1.1     Copyright 2018 The Mali Project Authors
+    github.com/google/fonts/tree/main/ofl/mali
+  Tiro Devanagari Hindi      OFL 1.1     Copyright 2020 The Indigo Project Authors
+    github.com/google/fonts/tree/main/ofl/tirodevanagarihindi
+
+Licence texts: https://openfontlicense.org/ (OFL 1.1),
+https://www.apache.org/licenses/LICENSE-2.0 (Apache 2.0).
