@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 25 September 2026
+Last updated: 27 September 2026
 
 ## Summary
 
@@ -59,6 +59,8 @@ and IndexedDB. None of it is transmitted anywhere.
 - Your study data: words you have looked up, words marked as known, study
   time, streaks, active days, ranks and achievements, per-language statistics.
 - Dictionaries you install, stored as local databases.
+- Fonts you download or add for subtitles, and word packs you download for
+  Advanced scanning, also stored as local databases.
 - Subtitle files you load, for the duration of playback.
 - Recognition data for any OCR language you have used, cached after its first
   download.
@@ -78,8 +80,9 @@ take:
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
-| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up |
-| Play a word's pronunciation | assets.languagepod101.com | The word and its reading |
+| Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
+| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, or the spelling a Wiktionary page points to (准备 → 準備) |
+| Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
 | Enable AI definitions, optional | Groq | The word and the subtitle line being worked on, plus your own Groq API key |

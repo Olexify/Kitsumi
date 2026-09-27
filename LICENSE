@@ -46,6 +46,13 @@ Dictionaries downloaded through Kitsumi are not part of the package. They are
 fetched from third-party hosts at the user's request, and each keeps whatever
 licence its publisher gave it.
 
+Fonts and word packs downloaded through Kitsumi are not part of the package
+either. Each font keeps its own licence (SIL Open Font License 1.1, or Apache
+License 2.0 for Kosugi Maru). The word packs for Advanced scanning are derived
+from JMdict (Electronic Dictionary Research and Development Group) and
+CC-CEDICT (MDBG) and are shared under CC BY-SA 4.0; see the README at
+https://github.com/Olexify/KitsumiOPS.
+
 
 3. Documentation
 ----------------

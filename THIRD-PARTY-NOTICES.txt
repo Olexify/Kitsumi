@@ -279,6 +279,96 @@ software; Kosugi Maru is under the Apache License 2.0.
     github.com/google/fonts/tree/main/ofl/mali
   Tiro Devanagari Hindi      OFL 1.1     Copyright 2020 The Indigo Project Authors
     github.com/google/fonts/tree/main/ofl/tirodevanagarihindi
+  Kiwi Maru                  OFL 1.1     Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
+    github.com/google/fonts/tree/main/ofl/kiwimaru
+  Mochiy Pop One             OFL 1.1     Copyright 2020 The Mochiypop Project Authors (https://github.com/fontdasu/Mochiypop)
+    github.com/google/fonts/tree/main/ofl/mochiypopone
+  RocknRoll One              OFL 1.1     Copyright 2020 The RocknRoll Project Authors (https://github.com/fontworks-fonts/RocknRoll)
+    github.com/google/fonts/tree/main/ofl/rocknrollone
+  DotGothic16                OFL 1.1     Copyright 2020 The DotGothic16 Project Authors (https://github.com/fontworks-fonts/DotGothic16)
+    github.com/google/fonts/tree/main/ofl/dotgothic16
+  Shippori Mincho            OFL 1.1     Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
+    github.com/google/fonts/tree/main/ofl/shipporimincho
+  Kaisei Decol               OFL 1.1     Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
+    github.com/google/fonts/tree/main/ofl/kaiseidecol
+  Sawarabi Gothic            OFL 1.1     Copyright 2016 The Sawarabi Gothic Project Authors
+    github.com/google/fonts/tree/main/ofl/sawarabigothic
+  Noto Sans JP               OFL 1.1     Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+    github.com/google/fonts/tree/main/ofl/notosansjp
+  Jua                        OFL 1.1     Copyright 2018 The Jua Project Authors
+    github.com/google/fonts/tree/main/ofl/jua
+  Do Hyeon                   OFL 1.1     Copyright 2018 The Do Hyeon Project Authors
+    github.com/google/fonts/tree/main/ofl/dohyeon
+  Gaegu                      OFL 1.1     Copyright 2018 The Gaegu Project Authors
+    github.com/google/fonts/tree/main/ofl/gaegu
+  Nanum Gothic               OFL 1.1     Copyright (c) 2010, NHN Corporation (http://www.nhncorp.com)
+    github.com/google/fonts/tree/main/ofl/nanumgothic
+  Noto Sans KR               OFL 1.1     Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+    github.com/google/fonts/tree/main/ofl/notosanskr
+  Ma Shan Zheng              OFL 1.1     Copyright 2018 The Ma Shan Zheng Project Authors (https://github.com/googlefonts/mashanzheng)
+    github.com/google/fonts/tree/main/ofl/mashanzheng
+  ZCOOL XiaoWei              OFL 1.1     Copyright 2018 The ZCOOL XiaoWei Project Authors (https://github.com/googlefonts/zcool-xiaowei/)
+    github.com/google/fonts/tree/main/ofl/zcoolxiaowei
+  Long Cang                  OFL 1.1     Copyright 2018 The Long Cang Project Authors (https://github.com/googlefonts/longcang)
+    github.com/google/fonts/tree/main/ofl/longcang
+  Noto Sans SC               OFL 1.1     Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+    github.com/google/fonts/tree/main/ofl/notosanssc
+  Noto Sans TC               OFL 1.1     Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'
+    github.com/google/fonts/tree/main/ofl/notosanstc
+  Nunito                     OFL 1.1     Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)
+    github.com/google/fonts/tree/main/ofl/nunito
+  Comfortaa                  OFL 1.1     Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name 
+    github.com/google/fonts/tree/main/ofl/comfortaa
+  Montserrat                 OFL 1.1     Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)
+    github.com/google/fonts/tree/main/ofl/montserrat
+  Noto Sans                  OFL 1.1     Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+    github.com/google/fonts/tree/main/ofl/notosans
+  Inter                      OFL 1.1     Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+    github.com/google/fonts/tree/main/ofl/inter
+  Caveat                     OFL 1.1     Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
+    github.com/google/fonts/tree/main/ofl/caveat
+  Pangolin                   OFL 1.1     Copyright 2016 The Pangolin Project Authors (https://github.com/googlefonts/pangolin)
+    github.com/google/fonts/tree/main/ofl/pangolin
+  Andika                     OFL 1.1     Copyright (c) 2004-2022 SIL International (http://www.sil.org/)
+    github.com/google/fonts/tree/main/ofl/andika
+  Roboto                     OFL 1.1     Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
+    github.com/google/fonts/tree/main/ofl/roboto
+  Kanit                      OFL 1.1     Copyright 2020 The Kanit Project Authors (https://github.com/cadsondemak/kanit)
+    github.com/google/fonts/tree/main/ofl/kanit
+  Prompt                     OFL 1.1     Copyright (c) 2015, Cadson Demak (info@cadsondemak.com)
+    github.com/google/fonts/tree/main/ofl/prompt
+  Hind                       OFL 1.1     Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com)
+    github.com/google/fonts/tree/main/ofl/hind
+  Noto Sans Devanagari       OFL 1.1     Copyright 2022 The Noto Project Authors (https://github.com/notofonts/devanagari)
+    github.com/google/fonts/tree/main/ofl/notosansdevanagari
+  Cairo                      OFL 1.1     Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+    github.com/google/fonts/tree/main/ofl/cairo
+  Tajawal                    OFL 1.1     Copyright 2018 Boutros International. (http://www.boutrosfonts.com)
+    github.com/google/fonts/tree/main/ofl/tajawal
+  Amiri                      OFL 1.1     Copyright 2010-2022 The Amiri Project Authors (https://github.com/aliftype/amiri)
+    github.com/google/fonts/tree/main/ofl/amiri
+  Heebo                      OFL 1.1     Copyright 2014 The Heebo Project Authors (https://github.com/OdedEzer/heebo)
+    github.com/google/fonts/tree/main/ofl/heebo
 
 Licence texts: https://openfontlicense.org/ (OFL 1.1),
 https://www.apache.org/licenses/LICENSE-2.0 (Apache 2.0).
+
+11. Word packs for Advanced scanning
+------------------------------------
+These are NOT part of this package. In the Dict tab (Advanced scanning) the
+user can download a word pack for a language; it is fetched only then, from
+Kitsumi's own public repository (raw.githubusercontent.com/Olexify/KitsumiOPS,
+folder packs/), checked against a SHA-256 checksum, and kept in that user's
+browser. A pack is a list of word forms with a few grammar flags (which verb
+or adjective class a word belongs to, whether it is common), extracted from
+the dictionary below; it contains no definitions. Being derived from a
+CC BY-SA work, each pack is itself shared under CC BY-SA 4.0.
+
+  Japanese pack (scan-ja-1)   JMdict, by the Electronic Dictionary Research
+                              and Development Group (EDRDG), CC BY-SA 4.0
+                              https://www.edrdg.org/edrdg/licence.html
+  Chinese pack (scan-zh-1)    CC-CEDICT, published by MDBG, CC BY-SA 4.0
+                              https://cc-cedict.org/wiki/
+
+Licence text: https://creativecommons.org/licenses/by-sa/4.0/
+The scripts that build the packs are in tools/packs/ of the source code.
