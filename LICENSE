@@ -113,6 +113,26 @@ dictionaries, fonts: they stay on your device, and you are responsible for
 having the right to use them. The copyright holder does not check, supply or
 license them.
 
+Custom subtitle providers. Kitsumi lets you add a subtitle site of your own
+choosing (Settings, Subtitle providers, Custom providers). A custom provider is
+not part of Kitsumi: the copyright holder does not make, check, endorse,
+supply or support it, and has no control over the site it contacts. By adding
+one you accept that:
+  - you alone chose it, and you alone are responsible for checking that the
+    site is genuine, lawful and safe;
+  - you are responsible for having the right to use that service and anything
+    it provides, under its own terms and the laws that apply to you, copyright
+    included;
+  - everything the provider sends or receives - your searches, any key you give
+    it, and every file you download through it - is between you and that site;
+  - sections 4 and 5 apply to custom providers in full, and, to the maximum
+    extent permitted by applicable law, the copyright holder is not liable for
+    any loss or damage caused by a custom provider or by anything obtained
+    through one, and any claim a third party makes because of a custom provider
+    you added is your responsibility, not the copyright holder's.
+Kitsumi records on your device when you accepted this for each custom
+provider you add.
+
 
 7. Governing law
 ----------------

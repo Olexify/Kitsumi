@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 27 September 2026
+Last updated: 28 September 2026
 
 ## Summary
 
@@ -69,6 +69,10 @@ and IndexedDB. None of it is transmitted anywhere.
 You can delete all of it at any time by removing the extension, or by using
 the reset controls in the extension's settings.
 
+Subtitles you save from the subtitle timeline (the 📥 button, as .srt or plain
+text) are handed to your browser as an ordinary download: a file on your
+computer, which Kitsumi does not keep a copy of or send anywhere.
+
 ## When Kitsumi makes network requests
 
 Kitsumi does not contact any server operated by the developer, because none
@@ -78,10 +82,11 @@ take:
 | You do this | Kitsumi contacts | What is sent |
 | :--- | :--- | :--- |
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
+| Search with a custom provider you added yourself (advanced - none exists unless you add one) | The site you added. Kitsumi does not choose, check or vouch for it | The title you search, the language code, the id of a result you open, and the key you gave it for that site - nothing else: no cookies, no page address, no referrer |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
-| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, or the spelling a Wiktionary page points to (准备 → 準備) |
+| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), or the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
@@ -95,6 +100,16 @@ no network request at all. You can turn them on in the popup, from the Dict
 tab or the switch on its main screen; the first time, Kitsumi shows a short notice saying exactly what
 is sent and to whom, and nothing is sent before you accept it. Turning every
 source off again switches them back off.
+
+**Custom subtitle providers are yours, not Kitsumi's.** In Settings, Subtitle
+providers, you can add a subtitle site Kitsumi does not support (advanced). Kitsumi
+shows three warnings first and adds nothing until you pass all three; it records on
+your device when you accepted them. A custom provider only ever talks to the one
+site you confirmed, and only over https; your key goes to that site and nowhere
+else, and a request carrying it is never followed to another address. What comes
+back is limited to titles, ids and file names as plain text, and subtitle files that
+really are subtitles (anything else is refused, and web code in them is removed).
+Everything that site receives or does is between you and it; see the licence.
 
 **Subtitle providers need a key of your own.** Kitsumi ships no shared key.
 Jimaku, OpenSubtitles and SubDL each stay dormant until you enter one, so none
