@@ -30,10 +30,11 @@ each one actually is:
 - **Website content.** The subtitle text on the page, read so the overlay can
   be drawn and so you can hover a word. That reading happens on your device.
   Two optional features then send a piece of it onward, and only the piece you
-  asked about: **online dictionary lookups** send the single word you hovered
-  to the dictionary service, and the **AI features** send the subtitle line, or
-  the audio of the video, to the provider whose key you entered. Both are off
-  until you switch them on, and both go to those services rather than to
+  asked about: **online dictionary lookups** send the word you hovered to the
+  dictionary service (and, when you click the star to explain a line, that
+  line and each of its words), and the **AI features** send the subtitle line,
+  or the audio of the video, to the provider whose key you entered. Both are
+  off until you switch them on, and both go to those services rather than to
   anything of Kitsumi's.
 - **Authentication information.** The API keys you choose to type in, for
   Jimaku, OpenSubtitles, SubDL, Groq or WaveSpeed. They sit in your browser and
@@ -86,7 +87,8 @@ take:
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
-| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), or the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) |
+| Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) or inside a stretch of kana read as one piece (はいもう → はい, もう), and a part of a word you hover in the popup (曇りなく → なく) |
+| Explain a subtitle line (the star on the line), off until you turn online dictionaries on | The dictionary services you selected, and MyMemory if it is one of them | Each word of that line, looked up as above; and the line itself (at most 500 characters) to MyMemory for a translation |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
@@ -161,9 +163,11 @@ title Kitsumi remembers so the next episode finds its subtitles.
 There are two exceptions, both entirely in your hands and both off until you
 switch them on:
 
-- **Online dictionary lookups** send the single word you hovered to the
-  dictionary service you picked, because that is the only way it can look the
-  word up.
+- **Online dictionary lookups** send the word you hovered to the dictionary
+  service you picked, because that is the only way it can look the word up.
+  When you click the star on a subtitle to explain the whole line, each word of
+  that line is looked up the same way, and the line itself goes to MyMemory for
+  a translation - only if MyMemory is one of your online dictionaries.
 - **The AI features** send the subtitle line, or the audio of the video you
   asked to transcribe, to the provider whose API key you entered.
 
