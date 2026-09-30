@@ -118,7 +118,7 @@ AI is **opt-in and dormant** until you paste your own key. No key, no AI, no qui
 
 There are **36 ranks**, from 🌱 Sprout to 🫀 Soul of the Language, 200+ achievements, streaks, per-language profiles, and a stats page that answers *"have I actually been doing this?"*
 
-<p align="center"><a href="https://addons.mozilla.org/firefox/addon/Kitsumi/"><img src="https://github.com/user-attachments/assets/0a142917-26d2-4e32-8d8c-dbb7aed3ddff" width="900" alt="Progression, ranks and per-language statistics"></a></p>
+<p align="center"><a href="https://addons.mozilla.org/firefox/addon/Kitsumi/"><img src="https://github.com/user-attachments/assets/d1eadc9c-4a09-4d2b-b68d-185e16d9bf5d" width="900" alt="Progression, ranks and per-language statistics"></a></p>
 
 > **Read this part honestly.** XP and ranks measure **activity, not ability**. Minutes watched and words hovered are a log of what you did, not a certificate of what you know. They're here because a visible streak is a decent reason to open the app on a bad day - that's the whole job. Level estimates (JLPT-style where a framework exists) are rough progress signals, not certifications. Kitsumi is not secretly your examiner.
 
