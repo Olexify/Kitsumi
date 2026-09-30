@@ -10,7 +10,7 @@ Suddenly you realize - watching foreign videos with *English* subtitles never wo
 
 <p align="center"><a href="https://addons.mozilla.org/firefox/addon/Kitsumi/"><img src="https://img.shields.io/badge/Firefox-Install-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=FF7139&color=18181B" height="44" alt="Firefox Install"></a>&nbsp;<a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://img.shields.io/badge/Chrome-Install-18181B?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=4285F4&color=18181B" height="44" alt="Chrome Install"></a>&nbsp;<a href="https://discord.gg/UpmNHxT7PF"><img src="https://img.shields.io/badge/Discord-Join-18181B?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2&color=18181B" height="44" alt="Discord Join"></a></p>
 
-<p align="center"><a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://github.com/user-attachments/assets/49f52e36-e0d1-4ea9-ae14-5669a6f589d9" width="900" alt="Kitsumi subtitle overlay with dictionary popup"></a></p>
+<p align="center"><a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://github.com/user-attachments/assets/12615609-cc6b-4fb8-a545-70b7cd382758" width="900" alt="Kitsumi subtitle overlay with dictionary popup"></a></p>
 
 ---
 
