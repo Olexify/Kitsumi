@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 28 September 2026
+Last updated: 1 October 2026
 
 ## Summary
 
@@ -173,7 +173,8 @@ switch them on:
   a translation - only if MyMemory is one of your online dictionaries.
   If you enter an email in the Dict tab (MyMemory email, optional), it is sent to
   MyMemory with each MyMemory request, which gives a higher free daily limit;
-  it is kept only in your browser and sent nowhere else.
+  it is kept only in your browser and sent nowhere else. Kitsumi asks before you
+  type it the first time.
   If you enter your own DeepL API key (optional), the line you explain can go to
   DeepL with that key for its translation, in the order you choose (by default
   only when MyMemory's daily limit is used up); the key is kept only in your
