@@ -225,7 +225,11 @@ them. The data behind them, where the service states it:
     Wiktionary data, CC BY-SA
 
   MyMemory                            mymemory.translated.net (Translated srl)
-    Translation memory and machine translation, free anonymous tier.
+    Translation memory and machine translation, free tier (anonymous, or with
+    the email you entered for a higher limit).
+
+  DeepL API                           api-free.deepl.com / api.deepl.com (DeepL SE)
+    Machine translation of a subtitle line, only with your own API key.
 
 10. Fonts offered for download
 ------------------------------

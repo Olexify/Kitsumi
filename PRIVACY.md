@@ -37,8 +37,11 @@ each one actually is:
   off until you switch them on, and both go to those services rather than to
   anything of Kitsumi's.
 - **Authentication information.** The API keys you choose to type in, for
-  Jimaku, OpenSubtitles, SubDL, Groq or WaveSpeed. They sit in your browser and
-  go only to the service that issued them.
+  Jimaku, OpenSubtitles, SubDL, Groq, WaveSpeed, KRDict or DeepL. They sit in
+  your browser and go only to the service that issued them.
+- **Personally identifiable information.** Only the email you may type in for
+  MyMemory (Dict tab -> Keys, optional), which raises MyMemory's free daily
+  limit. It sits in your browser and goes only to MyMemory, with its requests.
 - **Web browsing activity.** The title and address of the tab you are
   watching, used to work out which show it is, and remembered per show so the
   next episode finds its subtitles. It is sent to a subtitle provider only on
@@ -88,7 +91,7 @@ take:
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
 | Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) or inside a stretch of kana read as one piece (はいもう → はい, もう), and a part of a word you hover in the popup (曇りなく → なく) |
-| Explain a subtitle line (the star on the line), off until you turn online dictionaries on | The dictionary services you selected, and MyMemory if it is one of them | Each word of that line, looked up as above; and the line itself (at most 500 characters) to MyMemory for a translation |
+| Explain a subtitle line (the star on the line), off until you turn online dictionaries on | The dictionary services you selected; MyMemory if it is one of them; DeepL if you entered your own DeepL API key | Each word of that line, looked up as above; and the line itself (at most 500 characters) for a translation - to MyMemory (with your email, if you entered one) and/or DeepL (with your key), in the order you chose |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
@@ -168,6 +171,13 @@ switch them on:
   When you click the star on a subtitle to explain the whole line, each word of
   that line is looked up the same way, and the line itself goes to MyMemory for
   a translation - only if MyMemory is one of your online dictionaries.
+  If you enter an email in the Dict tab (MyMemory email, optional), it is sent to
+  MyMemory with each MyMemory request, which gives a higher free daily limit;
+  it is kept only in your browser and sent nowhere else.
+  If you enter your own DeepL API key (optional), the line you explain can go to
+  DeepL with that key for its translation, in the order you choose (by default
+  only when MyMemory's daily limit is used up); the key is kept only in your
+  browser.
 - **The AI features** send the subtitle line, or the audio of the video you
   asked to transcribe, to the provider whose API key you entered.
 
