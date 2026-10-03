@@ -10,7 +10,7 @@ Japanese is the main focus; 45+ other languages come along for the ride.
 
 <p align="center"><a href="https://addons.mozilla.org/firefox/addon/Kitsumi/"><img src="https://img.shields.io/badge/Firefox-Install-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=FF7139&color=18181B" height="44" alt="Firefox Install"></a>&nbsp;<a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://img.shields.io/badge/Chrome-Install-18181B?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=4285F4&color=18181B" height="44" alt="Chrome Install"></a>&nbsp;<a href="https://discord.gg/UpmNHxT7PF"><img src="https://img.shields.io/badge/Discord-Join-18181B?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2&color=18181B" height="44" alt="Discord Join"></a></p>
 
-<p align="center"><a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://github.com/user-attachments/assets/95f715d9-313d-4fc8-8159-c3ee13482009" width="900" alt="Kitsumi subtitle overlay with dictionary popup"></a></p>
+<p align="center"><a href="https://chromewebstore.google.com/detail/Kitsumi/ciiembegoahhehnfdkbanhioobokjdkd"><img src="https://github.com/user-attachments/assets/4cfcbb46-b8f5-4ee2-92d7-5aa636c3ef7d" width="900" alt="Kitsumi subtitle overlay with dictionary popup"></a></p>
 
 <p align="center"><b>Free · no account · no subscription · no telemetry · Firefox & Chrome · interface in 20 languages</b><br><a href="https://kitsumi.org/">kitsumi.org</a></p>
 
