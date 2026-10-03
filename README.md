@@ -28,9 +28,9 @@ Kitsumi started from one problem: *"I want to study Japanese from anime - withou
 | :--- | :--- |
 | Subtitles, timing, dictionaries, lookups, cards, stats | Attention, guessing, recall, output |
 
-### 💊 Micro-dose learning
+### 🌱 Micro-dose learning
 
-A hover is a micro-dose: two seconds with one word, then straight back to the story. Alone, it's nothing. But the same word turns up again two scenes later, next episode, next week - and every time it's one hover away. Hundreds of tiny, well-spaced contacts with words you actually care about is how recognition quietly piles up, without ever turning the episode into homework. (Recognition, not fluency - see above. The guessing and speaking are still on you.)
+A hover gives you two seconds with one word, then straight back to the story. Alone, it's nothing. But the same word turns up again two scenes later, next episode, next week - and every time it's one hover away. Hundreds of tiny, well-spaced contacts with words you actually care about is how recognition quietly piles up, without ever turning the episode into homework. (Recognition, not fluency - see above. The guessing and speaking are still on you.)
 
 It doesn't replace your course, Anki, textbooks or a tutor. It's the missing layer between *"I'm watching something"* and *"wait - I actually learned something."*
 
