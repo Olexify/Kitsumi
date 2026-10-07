@@ -1,13 +1,14 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 1 October 2026
+Last updated: 8 October 2026
 
 ## Summary
 
 Kitsumi has no accounts, no servers, and no analytics. Everything it stores,
 it stores in your own browser. It makes network requests only when you use a
-feature that needs one, and every one of those is listed below.
+feature that needs one, or to show this month's support total on the occasional
+support reminder, and every one of those is listed below.
 
 On a fresh install, nothing you type, hover, watch or listen to is sent
 anywhere. The features that would send something are off until you turn them
@@ -87,6 +88,7 @@ take:
 | :--- | :--- | :--- |
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
 | Search with a custom provider you added yourself (advanced - none exists unless you add one) | The site you added. Kitsumi does not choose, check or vouch for it | The title you search, the language code, the id of a result you open, and the key you gave it for that site - nothing else: no cookies, no page address, no referrer |
+| A support reminder appears in the popup (at most once a day) | olexify.dev, the developer's own website | A plain request for this month's support total (`/goal.json`). Nothing about you is sent; like any web request, the server sees your IP address |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
@@ -207,6 +209,21 @@ All features continue to work on the sites you allow.
 - No sending of your API keys to anyone but the service that issued them.
 - No reading of what you type into pages: passwords, forms and messages are never read, on any site.
 - No contacting a subtitle provider on a site you have not listed, or before you have accepted the providers notice.
+
+## The kitsumi.org website
+
+Everything above is about the extension. The website where this policy is
+published, kitsumi.org, is a static site hosted by Cloudflare:
+
+- It sets no cookies, has no accounts or forms, and shows no advertising. Its
+  fonts and scripts come from kitsumi.org itself.
+- Cloudflare, as the host, processes visitors' IP addresses to deliver the
+  pages and to protect the site from attacks, under Cloudflare's own privacy
+  policy: https://www.cloudflare.com/privacypolicy/
+- The site counts visits with Cloudflare Web Analytics. It uses no cookies and
+  no fingerprinting; it records the page visited, the referring site, the
+  browser type and how fast the page loaded, and reports them only as totals.
+  Nothing it records is used to identify you.
 
 ## Children
 
