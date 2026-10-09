@@ -101,6 +101,12 @@ Note that this is about trade marks, not about who drew the file. These icons
 depict other companies' marks whoever made the image, which is why they are
 listed here.
 
+Anki is a trade mark of Ankitects Pty Ltd. The star icon on Kitsumi's Anki
+buttons (drawn inline in the code, not a file) is a simplified drawing after
+Anki's logo, used only to mark the features that send cards to your own Anki
+through the AnkiConnect add-on. Kitsumi is not affiliated with or endorsed by
+Anki, Ankitects or AnkiConnect.
+
 Everything else in icons/ - the app icons, the fox artwork, the settings icon
 and the opening video - is the author's own work and is covered by section 1
 of LICENSE, not by anything here. If you believe a file in this package is

@@ -94,11 +94,13 @@ take:
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
 | Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) or inside a stretch of kana read as one piece (はいもう → はい, もう), and a part of a word you hover in the popup (曇りなく → なく) |
 | Explain a subtitle line (the star on the line), off until you turn online dictionaries on | The dictionary services you selected; MyMemory if it is one of them; DeepL if you entered your own DeepL API key | Each word of that line, looked up as above; and the line itself (at most 500 characters) for a translation - to MyMemory (with your email, if you entered one) and/or DeepL (with your key), in the order you chose |
+| A card's sentence translation or word list (Anki drafts window: Translate / Look up each word, or the card layout asking for them when a card is sent or mined to Anki), off unless you use them | MyMemory if it is one of your online dictionaries, DeepL if you entered your own key, Groq if you chose it as the translator (your own key); the dictionaries you chose as flashcard dictionaries | The card's sentence (at most 500 characters) for a translation, in the order you chose; each word of that sentence (at most 10), looked up as above |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
-| Enable AI definitions, optional | Groq | The word and the subtitle line being worked on, plus your own Groq API key |
-| Enable AI imagery, optional | WaveSpeed | The prompt text, plus your own WaveSpeed API key |
+| Enable AI definitions, optional (also the Anki drafts window's "AI: write" button, and Groq as the sentence translator) | Groq | The word and the subtitle line being worked on, plus your own Groq API key |
+| Enable AI imagery, optional (also the Anki drafts window's "AI: picture" button) | WaveSpeed | The prompt text (a one-sentence description of the scene), plus your own WaveSpeed API key |
+| Check for updates (Settings -> Import / export), when you press it | Your browser's add-on store (Chrome Web Store or addons.mozilla.org), asked by the browser itself | What the browser always sends when it checks for add-on updates: Kitsumi's ID and version |
 | Mine a card to Anki | AnkiConnect on `http://localhost:8765` | The card contents, including a screenshot or clip if you turned those on. This request never leaves your computer |
 
 **Online dictionary lookups are off on a fresh install.** Until you switch them
@@ -157,7 +159,10 @@ over video players it cannot know about in advance, including players inside
 embedded frames. It reads the page only to find the video player and its
 subtitle track, the word under your cursor on a site where you turned the
 article reader on (it runs only on sites you add yourself), and any image you
-point the OCR at.
+point the OCR at. On YouTube (and wherever Kitsumi shows subtitles) the
+subtitle text itself is read so its words can be hovered and looked up - with
+no site to add, since that is the overlay. The rest of the page, such as titles
+or comments, is read only where you added the site to the article reader.
 
 Reading the page is how the overlay gets drawn, and it is why the store
 listing declares website content. What Kitsumi does not do is keep any of it or
