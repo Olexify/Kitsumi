@@ -382,3 +382,35 @@ CC BY-SA work, each pack is itself shared under CC BY-SA 4.0.
 
 Licence text: https://creativecommons.org/licenses/by-sa/4.0/
 The scripts that build the packs are in tools/packs/ of the source code.
+
+
+12. Pitch accent and pronunciation dictionaries
+-----------------------------------------------
+These are NOT part of this package. In the Dict tab (Pitch accent &
+pronunciation) the user can download one for their study language; it is
+fetched only then, from the host named below, and kept in that user's
+browser. Kitsumi reads it to draw a word's pitch accent or show its
+pronunciation under the word, and to fill the pitch fields of the cards the
+user makes. Each keeps the licence its publisher gave it.
+
+  Kanjium pitch accents       accents.txt from Kanjium, by mifunetoshiro;
+  (Japanese)                  the pitch accent notation was provided by
+                              Uros O. through his free database.
+                              CC BY-SA 4.0
+                              https://github.com/mifunetoshiro/kanjium
+
+  Wiktionary IPA              Text by Wiktionary contributors, extracted by
+  (other languages)           Wiktextract (kaikki.org) and built by
+                              wiktionary-to-yomitan ("wty"), CC BY-SA 4.0
+                              huggingface.co/datasets/daxida/wty-release
+
+  Korean pronunciation        yomitan-ko-dic, by Lyroxide, built from the
+                              readings in KRDICT (National Institute of Korean
+                              Language, CC BY-SA 2.0 KR) and STDICT, whose
+                              source states no licence - Kitsumi says so on
+                              the row.
+                              github.com/Lyroxide/yomitan-ko-dic
+
+Licence text: https://creativecommons.org/licenses/by-sa/4.0/
+A pitch accent or pronunciation dictionary a user imports from their own files
+is their own business and never appears here.
