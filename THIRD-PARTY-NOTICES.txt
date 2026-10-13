@@ -398,6 +398,8 @@ user makes. Each keeps the licence its publisher gave it.
                               Uros O. through his free database.
                               CC BY-SA 4.0
                               https://github.com/mifunetoshiro/kanjium
+                              (backup, unchanged copy: github.com/Olexify/
+                              KanjiumKitsumi)
 
   Wiktionary IPA              Text by Wiktionary contributors, extracted by
   (other languages)           Wiktextract (kaikki.org) and built by
