@@ -414,3 +414,32 @@ user makes. Each keeps the licence its publisher gave it.
 Licence text: https://creativecommons.org/licenses/by-sa/4.0/
 A pitch accent or pronunciation dictionary a user imports from their own files
 is their own business and never appears here.
+
+
+13. Frequency dictionaries
+--------------------------
+These are NOT part of this package. In Dict -> Get more the user can download
+one for their study language; it is fetched only then from
+github.com/Olexify/JitenKitsumi (Kitsumi's own copies, credited there) and kept
+in that user's browser. Kitsumi reads it to show how common a word is on the
+dictionary popup and to fill the frequency fields of the cards the user makes.
+
+  Jiten (Japanese)            The frequency lists of Jiten (jiten.moe),
+                              built from its corpus of Japanese media,
+                              redistributed unchanged. CC BY-SA 4.0
+
+  wordfreq                    The most common words of each language from
+  (other languages)           wordfreq, by Robyn Speer; data CC BY-SA 4.0.
+                              Built from Google Books Ngrams, SUBTLEX (Marc
+                              Brysbaert and colleagues; freely available
+                              data), OpenSubtitles 2018, Wikipedia and the
+                              other sources named in wordfreq's licence.
+                              Robyn Speer (2022), rspeer/wordfreq v3.0,
+                              Zenodo, doi:10.5281/zenodo.7199437
+                              https://github.com/rspeer/wordfreq
+
+  Korean Frequency (CC100)    From yomitan-ko-dic, by Lyroxide (section 8).
+
+Licence text: https://creativecommons.org/licenses/by-sa/4.0/
+A frequency dictionary a user imports from their own files is their own
+business and never appears here.
