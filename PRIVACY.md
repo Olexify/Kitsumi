@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 8 October 2026
+Last updated: 13 October 2026
 
 ## Summary
 
