@@ -445,3 +445,18 @@ dictionary popup and to fill the frequency fields of the cards the user makes.
 Licence text: https://creativecommons.org/licenses/by-sa/4.0/
 A frequency dictionary a user imports from their own files is their own
 business and never appears here.
+
+
+14. Word audio
+-------------
+NOT part of this package, and off by default. With Anki tab -> Card
+attachments -> Word audio (JapanesePod101) on, the card the user makes gets a
+native speaker saying the word: Kitsumi fetches that one recording from
+JapanesePod101's server when the card is made and puts it into the user's own
+Anki. Nothing is bundled or shared by Kitsumi.
+
+  JapanesePod101              Recordings by JapanesePod101 (Innovative
+                              Language Learning), served from
+                              assets.languagepod101.com - they remain theirs,
+                              for the user's own study.
+                              https://www.japanesepod101.com/
