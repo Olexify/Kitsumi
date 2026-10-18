@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 13 October 2026
+Last updated: 18 October 2026
 
 ## Summary
 
@@ -38,7 +38,8 @@ each one actually is:
   off until you switch them on, and both go to those services rather than to
   anything of Kitsumi's.
 - **Authentication information.** The API keys you choose to type in, for
-  Jimaku, OpenSubtitles, SubDL, Groq, WaveSpeed, KRDict or DeepL. They sit in
+  Jimaku, OpenSubtitles, SubDL, Groq, OpenAI, Google Gemini, OpenRouter,
+  WaveSpeed, KRDict or DeepL. They sit in
   your browser and go only to the service that issued them.
 - **Personally identifiable information.** Only the email you may type in for
   MyMemory (Dict tab -> Keys, optional), which raises MyMemory's free daily
@@ -95,12 +96,15 @@ take:
 | Look up a word online, off until you turn it on | The dictionary services you selected: Jisho, Jotoba, KRDict (with your own key), Wiktionary, freedictionaryapi.com, dictionaryapi.dev or MyMemory | The word you looked up, and forms of it Kitsumi works out to find its entry: its dictionary form (食べていた → 食べる, 먹었어요 → 먹다), the word a "form of" definition names, the spelling a Wiktionary page points to (准备 → 準備), the words inside a compound no dictionary lists whole (楽園歴 → 楽園, 歴) or inside a stretch of kana read as one piece (はいもう → はい, もう), and a part of a word you hover in the popup (曇りなく → なく) |
 | Explain a subtitle line (the star on the line), off until you turn online dictionaries on | The dictionary services you selected; MyMemory if it is one of them; DeepL if you entered your own DeepL API key | Each word of that line, looked up as above; and the line itself (at most 500 characters) for a translation - to MyMemory (with your email, if you entered one) and/or DeepL (with your key), in the order you chose |
 | Furigana over Japanese subtitles when no Japanese dictionary is installed, off until you turn online dictionaries on (and furigana off turns it off) | The dictionary services you selected | The words of the subtitle line on screen (at most 6 per line, one at a time, only while the tab is visible and the line stays on screen), looked up as above - each word once, then remembered on that page |
-| A card's sentence translation or word list (Anki drafts window: Translate / Look up each word, or the card layout asking for them when a card is sent or mined to Anki), off unless you use them | MyMemory if it is one of your online dictionaries, DeepL if you entered your own key, Groq if you chose it as the translator (your own key); the dictionaries you chose as flashcard dictionaries | The card's sentence (at most 500 characters) for a translation, in the order you chose; each word of that sentence (at most 10), looked up as above |
+| A card's sentence translation or word list (Anki drafts window: Translate / Look up each word, or the card layout asking for them when a card is sent or mined to Anki), off unless you use them | MyMemory if it is one of your online dictionaries, DeepL if you entered your own key, the AI service you chose in Anki tab -> AI cards (Groq, OpenAI, Google Gemini or OpenRouter) if you chose AI as the translator (your own key); the dictionaries you chose as flashcard dictionaries | The card's sentence (at most 500 characters) for a translation, in the order you chose; each word of that sentence (at most 10), looked up as above |
 | Play a word's pronunciation | assets.languagepod101.com | The word and its reading. Kitsumi fetches the recording once to check that one exists before playing it |
 | A card's word audio, off until you turn it on (Anki tab -> Card attachments -> Word audio from JapanesePod101), for a note type with a word-audio field (Lapis / Kiku ExpressionAudio, Senren wordAudio) | assets.languagepod101.com | The mined word and its reading, once per card sent to Anki. The recording goes from Kitsumi to your own Anki (AnkiConnect, on your computer) |
 | Read text from an image | Nothing, for Japanese vertical text. For any other language, tessdata.projectnaptha.com | The name of the language. The picture is recognised on your device and never leaves it |
 | Generate subtitles with AI, optional | Groq | The audio of the video or file you chose, plus your own Groq API key |
-| Enable AI definitions, optional (also the Anki drafts window's "AI: write" button, and Groq as the sentence translator) | Groq | The word and the subtitle line being worked on, plus your own Groq API key |
+| AI card text, optional (Anki tab -> AI cards: the field prompts on the cards you make - never auto-mine - the Anki drafts window's "AI: write" button, and AI as the sentence translator) | The one service you chose there: Groq, OpenAI, Google Gemini or OpenRouter (OpenRouter passes it on to the model's provider you picked) | Your field prompts with the card's word, reading, subtitle line, definition and translation filled in (or the word and the line for "AI: write"), plus your own API key for that service |
+| "Speak it" speaking drill, optional (Study tab -> Speak it) | The AI service you chose in Anki tab -> AI cards (Groq, OpenAI, Google Gemini or OpenRouter) | For each batch of 10 sentences: up to 6 of your saved words, the language you learn and yours, the level, topic and grammar you picked, a short summary of your recent drill mistakes (the words and what you said) and the last sentences you saw; "Why?" sends the sentence, the word and your answer; Settings -> "Test the connection" sends the word "Ping". Your own rules for a language (Settings) go with each batch for it. Plus your own API key for that service |
+| "Speak it": checking a spoken answer, optional (the "Speak it" check) | Groq if you entered a Groq key, else OpenAI with your OpenAI key | The recording of your answer (at most 15 seconds) and the language, plus your own key. Nothing is recorded until you press the button |
+| "Speak it": an AI voice, optional (Settings -> Voice: an OpenAI or Google Gemini voice) | OpenAI or Google Gemini, the one you picked | The sentence to be read aloud and the voice name, plus your own key. Browser voices stay on your device or go to the browser's own speech service |
 | Enable AI imagery, optional (also the Anki drafts window's "AI: picture" button) | WaveSpeed | The prompt text (a one-sentence description of the scene), plus your own WaveSpeed API key |
 | Check for updates (Settings -> Import / export), when you press it | Your browser's add-on store (Chrome Web Store or addons.mozilla.org), asked by the browser itself | What the browser always sends when it checks for add-on updates: Kitsumi's ID and version |
 | Mine a card to Anki | AnkiConnect on `http://localhost:8765` | The card contents, including a screenshot or clip if you turned those on. This request never leaves your computer |
@@ -139,7 +143,8 @@ tracks and asks no provider. Kitsumi never reads anything you type into a
 page - no passwords, no forms, no messages - on any site, listed or not.
 
 **The AI features are off by default** and stay dormant until you enter your
-own API key. With no key present, no request is made to Groq or WaveSpeed at
+own API key. With no key present, no request is made to Groq, OpenAI, Google
+Gemini, OpenRouter or WaveSpeed at
 any time.
 
 **About the OCR download.** Japanese vertical recognition works entirely
