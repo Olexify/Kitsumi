@@ -93,6 +93,9 @@ Files:    icons/youtube.png, icons/twitch.png, icons/instagram.png,
           icons/discord.png, icons/patreon.png, icons/kofi.png,
           icons/github.png
 
+The Ko-fi icon is not shown at the moment. The donation list names Ko-fi, Monobank
+and cryptocurrencies as plain text, with no logos.
+
 These are the trade marks of their respective owners. They are shipped
 unmodified and used for one purpose: as the icons of the links that open
 Kitsumi's own pages on those services. No affiliation with, sponsorship by, or

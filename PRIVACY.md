@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 20 October 2026
+Last updated: 2 November 2026
 
 ## Summary
 
@@ -64,6 +64,7 @@ and IndexedDB. None of it is transmitted anywhere.
   offsets, interface preferences, allowlisted sites.
 - Your study data: words you have looked up, words marked as known, study
   time, streaks, active days, ranks and achievements, per-language statistics.
+- A safety copy of your settings and study data, made once a day and kept for 3 days, so they can be restored if the browser loses them. It has no API keys, and it is removed with the extension.
 - Dictionaries you install, stored as local databases.
 - Fonts you download or add for subtitles, and word packs you download for
   Advanced scanning, also stored as local databases.
@@ -88,8 +89,10 @@ take:
 | You do this | Kitsumi contacts | What is sent |
 | :--- | :--- | :--- |
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
+| In Kitsumi's player for your own video files, you press Search under "Online" or Find online in the bar (then play an episode) | The same providers, set up with your own key | The title in that search box (the folder name, cleaned, until you change it), the id of the result you pick, and the file of the episode you play. Never your video files, their names or anything else from your computer |
 | Search with a custom provider you added yourself (advanced - none exists unless you add one) | The site you added. Kitsumi does not choose, check or vouch for it | The title you search, the language code, the id of a result you open, and the key you gave it for that site - nothing else: no cookies, no page address, no referrer |
 | A support reminder appears in the popup (at most once a day) | olexify.dev, the developer's own website | A plain request for this month's support total (`/goal.json`). Nothing about you is sent; like any web request, the server sees your IP address |
+| The welcome page opens (after install, or from the popup's Kitsumi menu) | olexify.dev, the developer's own website | A plain request for this month's support total (`/goal.json`). Nothing about you is sent; like any web request, the server sees your IP address |
 | Download a dictionary | GitHub Releases, Hugging Face and the other hosts named in the dictionary catalog | A file request. No personal data |
 | Download a font in the Subs tab | raw.githubusercontent.com (the Google Fonts repository on GitHub) | A file request for that font and its licence. No personal data |
 | Download a word pack for Advanced scanning in the Dict tab | raw.githubusercontent.com (Kitsumi's own public repository on GitHub, Olexify/KitsumiOPS) | A file request for that pack, and - while a pack is installed - for the list of pack versions (index.json), at most once a week when you open the Dict tab. No personal data. Subtitle lines are split on your device and never sent anywhere |
@@ -159,6 +162,14 @@ data, not program code, and none of your images or text is uploaded for it.
 Each third-party service handles the data it receives under its own privacy
 policy. If you enable one of these features, you are choosing to send that
 content to that provider, under your own account where a key is involved.
+
+## Donations
+
+Kitsumi shows optional donation options: Patreon, a Monobank Jar, Ko-fi, and crypto addresses (USDT, USDC, BTC, ETH, XMR, SOL, LTC). Donating unlocks nothing.
+
+Showing them sends nothing. A link opens that service's own page in a new tab, and its own terms and privacy policy apply there. The addresses and QR codes ship inside the extension, and Copy address puts the address on your clipboard.
+
+Kitsumi does not see your payment, card details or wallet. Most blockchains are public, so anyone can see a transaction to these addresses, including the developer. Only the support total above is fetched, and that request says nothing about you.
 
 ## Site access
 
