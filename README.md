@@ -202,3 +202,5 @@ Kitsumi - status
 ```
 
 *"I-it's not like I built you an entire language-learning ecosystem disguised as a subtitle extension or anything..."* **...baka.** 🦊✨
+
+Kitsumi is free to use, but it is not open source. This repository holds its documents and issue tracker; the source code is private. See [LICENSE](LICENSE).
