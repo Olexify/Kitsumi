@@ -82,7 +82,7 @@ No more `anime → Google → random subtitle site → popup → popup → wrong
 
 Every subtitle line becomes an interactive dictionary: readings with furigana, definitions, part of speech, JLPT level and frequency wherever the data exists.
 
-<p align="center"><a href="https://youtu.be/cirDXY3CkSk"><img src=".github/assets/banner_dictionary.png" width="900" alt="Interactive dictionary popup over a subtitle line"></a></p>
+<p align="center"><a href="https://kitsumi.org/"><img src=".github/assets/banner_dictionary.png" width="900" alt="Interactive dictionary popup over a subtitle line"></a></p>
 
 **Two rows, two readings.** Japanese has no spaces, so any word splitter will sometimes guess wrong. Kitsumi reads each line twice: hover the **lower half** of a word for the whole thing (`ひび割れた`, `近づかなきゃ`), the **upper half** for its pieces (`ひび割れ | た`, `近づか | なきゃ`). The rows are built to disagree when the line is ambiguous - if one of them guessed wrong, the other gives you a way out.
 
@@ -178,7 +178,26 @@ Your study data, mined words and settings live in your browser. Nothing goes to 
 
 Free, no subscription, no paywalled features, built by one person and a fox. If Kitsumi saved you from subtitle suffering - or from handcrafting Anki cards like it's 2014 - you can share some love:
 
-<p align="center"><a href="https://ko-fi.com/olexify"><img src="https://img.shields.io/badge/Ko--fi-Support-18181B?style=for-the-badge&logo=kofi&logoColor=white&labelColor=FF5E5B&color=18181B" height="44" alt="Ko-fi"></a>&nbsp;<a href="https://www.patreon.com/Olexifyyy"><img src="https://img.shields.io/badge/Patreon-Support-18181B?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D&color=18181B" height="44" alt="Patreon"></a>&nbsp;<a href="https://buymeacoffee.com/olexify"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-18181B?style=for-the-badge&logo=buymeacoffee&logoColor=white&labelColor=FFDD00&color=18181B" height="44" alt="Buy Me a Coffee"></a></p>
+<p align="center"><a href="https://send.monobank.ua/jar/4jizk5cDBp"><img src="https://img.shields.io/badge/Monobank-Donate-18181B?style=for-the-badge&labelColor=000000&color=18181B" height="44" alt="Monobank"></a>&nbsp;<a href="https://www.patreon.com/Olexifyyy"><img src="https://img.shields.io/badge/Patreon-Support-18181B?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D&color=18181B" height="44" alt="Patreon"></a>&nbsp;<a href="https://buymeacoffee.com/olexify"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-18181B?style=for-the-badge&logo=buymeacoffee&logoColor=white&labelColor=FFDD00&color=18181B" height="44" alt="Buy Me a Coffee"></a></p>
+
+<details>
+<summary><b>Crypto</b></summary>
+
+Send each coin only on the network listed - anything else can be lost.
+
+| Coin | Network | Address |
+| :--- | :--- | :--- |
+| USDT | Ethereum (ERC-20) | `0x97369cf0f17593505df60249cc48bd1a60cefb32` |
+| USDC | Ethereum (ERC-20) | `0x97369cf0f17593505df60249cc48bd1a60cefb32` |
+| ETH | Ethereum | `0x97369cf0f17593505df60249cc48bd1a60cefb32` |
+| BTC | Bitcoin | `bc1q9ajz2q3evfrw4jkpyck6jtgvlz8pgkk4duw2wp` |
+| XMR | Monero | `83VuZZ56m5UALCf8kuuSY9dbNxj9AH3uxcLZv7CEx3fYfimjKprtAaHGTGzBeyDzRRVZEqJPDBUYQirQiyCSjANSBtwDxFj` |
+| SOL | Solana | `CELaFhXdDAWD5AZc6WARgMe2guHbuN3pHroQWRwKMe2U` |
+| LTC | Litecoin | `ltc1qxrgvajveu2w05ktyyhpwu6g45llexe5vjqxcjt` |
+
+</details>
+
+Ko-fi isn't available yet.
 
 Bugs and feature requests go in [Issues](../../issues). Questions, recommendations and general fox business go to [Discord](https://discord.gg/UpmNHxT7PF).
 
