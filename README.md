@@ -178,7 +178,7 @@ Your study data, mined words and settings live in your browser. Nothing goes to 
 
 Free, no subscription, no paywalled features, built by one person and a fox. If Kitsumi saved you from subtitle suffering - or from handcrafting Anki cards like it's 2014 - you can share some love:
 
-<p align="center"><a href="https://send.monobank.ua/jar/4jizk5cDBp"><img src="https://img.shields.io/badge/Monobank-Donate-18181B?style=for-the-badge&labelColor=000000&color=18181B" height="44" alt="Monobank"></a>&nbsp;<a href="https://www.patreon.com/Olexifyyy"><img src="https://img.shields.io/badge/Patreon-Support-18181B?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D&color=18181B" height="44" alt="Patreon"></a>&nbsp;<a href="https://buymeacoffee.com/olexify"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-18181B?style=for-the-badge&logo=buymeacoffee&logoColor=white&labelColor=FFDD00&color=18181B" height="44" alt="Buy Me a Coffee"></a></p>
+<p align="center"><a href="https://send.monobank.ua/jar/4jizk5cDBp"><img src="https://img.shields.io/badge/Monobank-Donate-18181B?style=for-the-badge&labelColor=000000&color=18181B" height="44" alt="Monobank"></a>&nbsp;<a href="https://www.patreon.com/Olexifyyy"><img src="https://img.shields.io/badge/Patreon-Support-18181B?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF424D&color=18181B" height="44" alt="Patreon"></a>&nbsp;<a href="https://kitsumi.org/support"><img src="https://img.shields.io/badge/All%20ways%20to%20support-kitsumi.org%2Fsupport-18181B?style=for-the-badge&labelColor=FF8FB1&color=18181B" height="44" alt="All ways to support Kitsumi"></a></p>
 
 <details>
 <summary><b>Crypto</b></summary>
