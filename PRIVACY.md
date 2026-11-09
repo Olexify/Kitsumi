@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 2 November 2026
+Last updated: 9 November 2026
 
 ## Summary
 
@@ -237,17 +237,37 @@ All features continue to work on the sites you allow.
 ## The kitsumi.org website
 
 Everything above is about the extension. The website where this policy is
-published, kitsumi.org, is a static site hosted by Cloudflare:
+published, kitsumi.org, is hosted on Cloudflare Workers:
 
-- It sets no cookies, has no accounts or forms, and shows no advertising. Its
-  fonts and scripts come from kitsumi.org itself.
-- Cloudflare, as the host, processes visitors' IP addresses to deliver the
-  pages and to protect the site from attacks, under Cloudflare's own privacy
-  policy: https://www.cloudflare.com/privacypolicy/
+- It sets no cookies, has no accounts, and shows no advertising. Its fonts and
+  scripts come from kitsumi.org itself (no Google Fonts or other font
+  services).
+- Cloudflare, as the host, processes visitors' IP addresses and request data
+  to deliver the pages and to protect the site from attacks, under
+  Cloudflare's own privacy policy: https://www.cloudflare.com/privacypolicy/
 - The site counts visits with Cloudflare Web Analytics. It uses no cookies and
   no fingerprinting; it records the page visited, the referring site, the
   browser type and how fast the page loaded, and reports them only as totals.
   Nothing it records is used to identify you.
+- Download counter: when you download a PDF from the site, a Cloudflare D1
+  table adds 1 to that file's total - the table holds only the file name and
+  its count. To avoid counting the same download twice, a Cloudflare rate
+  limiter looks at your IP address together with the file name for one
+  minute. Kitsumi does not store your IP address, and no record is kept per
+  person.
+- Settings the site remembers stay in your browser and are never sent
+  anywhere: in localStorage the colour theme (k-theme), the page language
+  (k-lang) and a dismissed hint (k-coach); in sessionStorage the lighter
+  animations choice (k-lite) and the scroll position of each page.
+- Videos: the home page and /videos show a thumbnail only. The YouTube player
+  (youtube-nocookie.com) loads only after you press play; from then on
+  YouTube's and Google's privacy policies apply.
+- Donations (/support): the links to Patreon and Monobank open their own pages,
+  where their terms and privacy policies apply. The site never receives card
+  details. Those services may show the developer your name and message. If
+  you donate in cryptocurrency, the transaction is public on its blockchain.
+- Links to the Chrome Web Store, Firefox Add-ons, GitHub, Discord and social
+  sites are ordinary links: nothing loads from them until you click one.
 
 ## Children
 
