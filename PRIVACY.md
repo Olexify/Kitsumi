@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 9 November 2026
+Last updated: 10 November 2026
 
 ## Summary
 
@@ -138,13 +138,20 @@ of them is contacted until you decide to set it up.
 (in the background, and the one that runs when you open Kitsumi) is built from
 the page's title and address, so it runs only on the sites you have added to
 your list in the extension. On every other site nothing is sent to any
-provider. The first time you enable a provider, turn on the background search,
+provider. The title is the page's own title (cleaned of the site name); on rare
+pages a site puts other text there too, such as a user name or a message
+preview, and that would go with it. To search only with what you type, turn
+off "Auto-search subtitles from page title" (and leave "Auto-load subtitles
+without opening popup" off). The first time you enable a provider, turn on the background search,
 or search by hand, Kitsumi shows a short notice saying exactly this and asks
 you to accept it; nothing is sent to a provider before you do. Declining
 switches the providers off again. Your list stays empty until you accept the
 notice, and YouTube is never on it: there Kitsumi uses YouTube's own subtitle
-tracks and asks no provider. Kitsumi never reads anything you type into a
-page - no passwords, no forms, no messages - on any site, listed or not.
+tracks and asks no provider. Text you type into boxes on a page (search
+boxes, forms, messages) is not looked up: hovering or clicking skips them
+always, and selecting or right-clicking skips them too unless you turn off
+"Skip text fields" (article reader settings). Password and payment fields are
+never read.
 
 **The AI features are off by default** and stay dormant until you enter your
 own API key. With no key present, no request is made to Groq, OpenAI, Google
@@ -231,7 +238,7 @@ All features continue to work on the sites you allow.
 - No selling or sharing of data.
 - No transmission of your study history, vocabulary, or statistics anywhere.
 - No sending of your API keys to anyone but the service that issued them.
-- No reading of what you type into pages: passwords, forms and messages are never read, on any site.
+- No looking up what you type into pages: text boxes are skipped by default (the "Skip text fields" switch), and password and payment fields always.
 - No contacting a subtitle provider on a site you have not listed, or before you have accepted the providers notice.
 
 ## The kitsumi.org website
