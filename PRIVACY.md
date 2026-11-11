@@ -1,12 +1,14 @@
 # Privacy Policy
 
 **Kitsumi browser extension**
-Last updated: 10 November 2026
+Last updated: 11 November 2026
 
 ## Summary
 
-Kitsumi has no accounts, no servers, and no analytics. Everything it stores,
-it stores in your own browser. It makes network requests only when you use a
+The extension has no accounts and no analytics. Everything it stores, it
+stores in your own browser. The developer runs one server, the Kitsumi Vault
+subtitle library, and the extension asks it for subtitles only when you switch
+the Vault on. It makes network requests only when you use a
 feature that needs one, or to show this month's support total on the occasional
 support reminder, and every one of those is listed below.
 
@@ -50,8 +52,10 @@ each one actually is:
   the sites you have put on your list, and only after you have accepted the
   providers notice inside the extension (see below).
 
-**None of it reaches the developer, because there is nowhere for it to go.**
-Kitsumi has no server, no account, no analytics and no telemetry. Those
+**None of it is collected by the developer.** The extension has no account, no
+analytics and no telemetry. The one server of the developer's it can ask for
+subtitles, the Kitsumi Vault, receives only the search described below, and
+only when you have switched the Vault on. Those
 categories describe what the software touches on your machine, not what anybody
 collects about you. Everything below sets out exactly where each thing goes.
 
@@ -82,13 +86,13 @@ computer, which Kitsumi does not keep a copy of or send anywhere.
 
 ## When Kitsumi makes network requests
 
-Kitsumi does not contact any server operated by the developer, because none
-exists. It contacts third-party services only in response to an action you
-take:
+Apart from the support total and the optional Kitsumi Vault (both below), Kitsumi
+contacts only third-party services, and only in response to an action you take:
 
 | You do this | Kitsumi contacts | What is sent |
 | :--- | :--- | :--- |
 | Search for subtitles, on a site you listed | Jimaku, OpenSubtitles or SubDL, whichever you have set up with your own key | The show title and page address, or the terms you typed |
+| Search for subtitles with the Kitsumi Vault switched on (subtitle providers; off by default), on a site you listed | vault.kitsumi.org, the developer's own subtitle library, hosted on Cloudflare | The show title or the terms you typed, the language code, the id of the show you pick and the episode file you load. No key, account or page address. Like any web request, the server sees your IP address: it is used for a per-minute request limit and is not stored |
 | In Kitsumi's player for your own video files, you press Search under "Online" or Find online in the bar (then play an episode) | The same providers, set up with your own key | The title in that search box (the folder name, cleaned, until you change it), the id of the result you pick, and the file of the episode you play. Never your video files, their names or anything else from your computer |
 | Search with a custom provider you added yourself (advanced - none exists unless you add one) | The site you added. Kitsumi does not choose, check or vouch for it | The title you search, the language code, the id of a result you open, and the key you gave it for that site - nothing else: no cookies, no page address, no referrer |
 | A support reminder appears in the popup (at most once a day) | olexify.dev, the developer's own website | A plain request for this month's support total (`/goal.json`). Nothing about you is sent; like any web request, the server sees your IP address |
@@ -132,7 +136,8 @@ Everything that site receives or does is between you and it; see the licence.
 
 **Subtitle providers need a key of your own.** Kitsumi ships no shared key.
 Jimaku, OpenSubtitles and SubDL each stay dormant until you enter one, so none
-of them is contacted until you decide to set it up.
+of them is contacted until you decide to set it up. The Kitsumi Vault needs no
+key; it stays off until you switch it on.
 
 **Subtitle providers are asked only on sites you list.** The automatic search
 (in the background, and the one that runs when you open Kitsumi) is built from
@@ -275,6 +280,34 @@ published, kitsumi.org, is hosted on Cloudflare Workers:
   you donate in cryptocurrency, the transaction is public on its blockchain.
 - Links to the Chrome Web Store, Firefox Add-ons, GitHub, Discord and social
   sites are ordinary links: nothing loads from them until you click one.
+
+## The Kitsumi Vault (vault.kitsumi.org)
+
+The Vault is the developer's subtitle library, hosted on Cloudflare Workers
+(Cloudflare's privacy policy applies to the hosting:
+https://www.cloudflare.com/privacypolicy/). Using its subtitles in the
+extension needs no account (see the table above). Sharing subtitles on
+vault.kitsumi.org does:
+
+- Sign-in: you type your email and receive a 6-digit code. The email is sent
+  through Resend (EU region, https://resend.com/legal/privacy-policy) to
+  deliver the code. The Vault keeps only a keyed hash of the address, never the
+  address itself, so it cannot email you or show your address to anyone.
+- Stored with your account: the name you choose to show with your subtitles,
+  when you joined, your uploads, your votes and your reports. Your uploads and
+  that name are public.
+- Your sign-in stays in that browser (localStorage); the server keeps only a
+  hash of it, for up to 10 browsers.
+- Limits: to stop abuse, a keyed hash of your IP address and of your email is
+  kept with a counter for up to about 2 days. Nothing else about your device
+  is stored, and there are no cookies, analytics or advertising.
+- Takedown requests (vault.kitsumi.org/takedown): the name, email,
+  organisation and signature you enter are stored as written, so the request
+  can be handled and answered.
+- On vault.kitsumi.org/account you can change your name and email, fix or
+  delete the sets you shared, sign out everywhere and delete the account (your
+  sets are deleted; the shows you added and the votes you cast stay, with no
+  name on them).
 
 ## Children
 
