@@ -306,6 +306,10 @@ vault.kitsumi.org does:
 - Stored with your account: the name you choose to show with your subtitles,
   when you joined, your uploads, your votes and your reports, and any warning a
   moderator gave you. Your uploads and that name are public.
+- Public profile: your username (unique; a moderator can replace an offensive one),
+  the avatar you pick (an emoji or a colour - nothing is uploaded), when you joined,
+  and counts of what you shared (sets, episodes, shows, upvotes received) are shown
+  on your profile page and the People page's leaderboard. Votes you cast stay private.
 - Your sign-in stays in that browser (localStorage); the server keeps only a
   hash of it, for up to 10 browsers.
 - Limits: to stop abuse, a keyed hash of your IP address and of your email is
