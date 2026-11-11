@@ -297,6 +297,12 @@ vault.kitsumi.org does:
   (https://www.cloudflare.com/turnstile-privacy-policy/), which looks at your
   browser and connection to tell people from bots before a code is sent. It
   runs only on those forms, not in the extension.
+- Supporter badges: once a day the Vault asks Patreon (https://www.patreon.com/policy/privacy)
+  for the developer's active patrons, their email and monthly amount. Each address
+  is turned into the same keyed hash sign-in uses and compared with the accounts;
+  the addresses are not stored. A Vault account with the same email as a patron at
+  $50 a month or more shows a badge (Legendary Lion, Half King or Lionheart) next to
+  its name while the support lasts.
 - Stored with your account: the name you choose to show with your subtitles,
   when you joined, your uploads, your votes and your reports, and any warning a
   moderator gave you. Your uploads and that name are public.
