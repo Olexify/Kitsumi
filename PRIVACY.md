@@ -293,14 +293,18 @@ vault.kitsumi.org does:
   through Resend (EU region, https://resend.com/legal/privacy-policy) to
   deliver the code. The Vault keeps only a keyed hash of the address, never the
   address itself, so it cannot email you or show your address to anyone.
+- Robot check: the sign-in and change-email forms load Cloudflare Turnstile
+  (https://www.cloudflare.com/turnstile-privacy-policy/), which looks at your
+  browser and connection to tell people from bots before a code is sent. It
+  runs only on those forms, not in the extension.
 - Stored with your account: the name you choose to show with your subtitles,
-  when you joined, your uploads, your votes and your reports. Your uploads and
-  that name are public.
+  when you joined, your uploads, your votes and your reports, and any warning a
+  moderator gave you. Your uploads and that name are public.
 - Your sign-in stays in that browser (localStorage); the server keeps only a
   hash of it, for up to 10 browsers.
 - Limits: to stop abuse, a keyed hash of your IP address and of your email is
   kept with a counter for up to about 2 days. Nothing else about your device
-  is stored, and there are no cookies, analytics or advertising.
+  is stored, and the Vault sets no cookies and has no analytics or advertising.
 - Takedown requests (vault.kitsumi.org/takedown): the name, email,
   organisation and signature you enter are stored as written, so the request
   can be handled and answered.
