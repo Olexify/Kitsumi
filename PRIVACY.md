@@ -297,8 +297,10 @@ vault.kitsumi.org does:
   (https://www.cloudflare.com/turnstile-privacy-policy/), which looks at your
   browser and connection to tell people from bots before a code is sent. It
   runs only on those forms, not in the extension.
-- Supporter badges: once a day the Vault asks Patreon (https://www.patreon.com/policy/privacy)
-  for the developer's active patrons, their email and monthly amount. Each address
+- Supporter badges: once a day the Vault gets the developer's active Patreon patrons
+  (https://www.patreon.com/policy/privacy) at $50 a month or more - their email and
+  monthly amount - through the developer's own site olexify.dev, which reads them from
+  Patreon (a private, key-protected request; nothing is cached or logged). Each address
   is turned into the same keyed hash sign-in uses and compared with the accounts;
   the addresses are not stored. A Vault account with the same email as a patron at
   $50 a month or more shows a badge (Legendary Lion, Half King or Lionheart) next to
